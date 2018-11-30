@@ -14,7 +14,6 @@ BACKUP_DIR=~/backup
 mkdir -p $BACKUP_DIR
 cp google-oauth2.sh $BACKUP_DIR
 cp upload.sh $BACKUP_DIR
-cp start.sh $BACKUP_DIR
 cd $BACKUP_DIR
 echo "#!/bin/sh" > daily_backup.sh
 echo "/bin/rm -rf $BACKUP_DIR/daily/*.sql.gz" >> daily_backup.sh
